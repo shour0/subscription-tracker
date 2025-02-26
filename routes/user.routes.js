@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 const userRouter = Router();
-
+// CRUD method
 userRouter.get('/', (req,res) => res.send({ 
   title:' GET all users'
 }));
