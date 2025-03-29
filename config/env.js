@@ -5,7 +5,8 @@ config({
 });
 
 export const {
-  PORT, NODE_ENV,
+  PORT, SERVER_URL,
+  NODE_ENV,
   DB_URI,
   JWT_SECRET, JWT_EXPIRES_IN,
   ARCJET_ENV, ARCJET_KEY,
